@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+  }
+  a{
+    text-decoration: none;
+  }
+  a img {
+    border: none;
+  }
+  
+  button,
+  a {
+    cursor: pointer;
+    color: inherit;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  button,
+  textarea,
+  select {
+    appearance: none !important;
+    border-radius: 0;
+  }
+
+  body {
+      height: 100vh;
+      width: 100vw;
+  }
+
+
+#cube1 {
+     background-color: #272932;
+     height: 400px;
+     width: 400px;
+  }
+
+#cube2 {
+      background-color: #4E5559;
+      height: 380px;
+      width: 380px;
+  }
+
+#cube3 {
+    background-color: #6e6563;
+    height: 360px;
+    width: 360px;
+}
+
+#cube4 {
+    background-color: #927168;
+    height: 340px;
+    width: 340px;
+}
+
+#cube5 {
+    background-color: #a3716a;
+    height: 320px;
+    width: 320px;
+}
+
+#cube6 {
+    background-color: #ab7e78;
+    height: 300px;
+    width: 300px;
+}
+
+#cube7 {
+    background-color: #b38a84;
+    height: 280px;
+    width: 280px;
+}
+
+#cube8 {
+    background-color: #ba958f;
+    height: 260px;
+    width: 260px;
+}
+
+#cube9 {
+    background-color: #c09f99;
+    height: 240px;
+    width: 240px;
+}
+
+#cube10 {
+    background-color: #c6a8a2;
+    height: 220px;
+    width: 220px;
+}
+
+
+  div {
+      display: grid;
+      place-items: center;
+  }
+
+
