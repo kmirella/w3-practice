@@ -43,5 +43,6 @@ section {
 
 .landscape {
     background-image: url("C:\Users\Felhasználó\Downloads\pexels-eberhard-grossgasteiger-443446.jpg");
+    background-color: blue;
     background-size: cover;
 }
