@@ -37,74 +37,11 @@
   }
 
 
-#cube1 {
-     background-color: #272932;
-     height: 400px;
-     width: 400px;
-     position: fixed;
-     right: 0;
-     bottom: 0;
-  }
-
-#cube2 {
-      background-color: #4E5559;
-      height: 380px;
-      width: 380px;
-  }
-
-#cube3 {
-    background-color: #6e6563;
-    height: 360px;
-    width: 360px;
+section {
+    min-height: 100vh;
 }
 
-#cube4 {
-    background-color: #927168;
-    height: 340px;
-    width: 340px;
-}
-
-#cube5 {
-    background-color: #a3716a;
-    height: 320px;
-    width: 320px;
-}
-
-#cube6 {
-    background-color: #ab7e78;
-    height: 300px;
-    width: 300px;
-}
-
-#cube7 {
-    background-color: #b38a84;
-    height: 280px;
-    width: 280px;
-    position: fixed;
-    left: 0;
-    top: 0;
-}
-
-#cube8 {
-    background-color: #ba958f;
-    height: 260px;
-    width: 260px;
-}
-
-#cube9 {
-    background-color: #c09f99;
-    height: 240px;
-    width: 240px;
-}
-
-#cube10 {
-    background-color: #c6a8a2;
-    height: 220px;
-    width: 220px;
-}
-
-
-
-div {
-    margin: auto
+.landscape {
+    background-image: url("C:\Users\Felhasználó\Downloads\pexels-eberhard-grossgasteiger-443446.jpg");
+    background-size: cover;
 }
