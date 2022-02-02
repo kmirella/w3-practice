@@ -99,22 +99,30 @@ section.image-holder button {
     margin: 40px 0;
     border-radius: 30px;
     transform: translateX(-50%);
-    background-color: #09ced9;
+    background-color: #07c0ca;
+    font-size: 20px;
+    font-family:'Permanent Marker', cursive;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
 }
 
 #welcome h1 {
     font-size: 100px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lobster', cursive;
     position: relative;
     display: block;
     margin-left: 40px;
     margin-top: 40px;
-    color: #fff;
+    color: rgb(206, 228, 245);
 }
 
 #about {
     min-height: unset;
     background-color: powderblue;
+}
+
+#about h2 {
+    font-family: 'Lobster', cursive;
 }
 
 #about article {
@@ -123,6 +131,10 @@ section.image-holder button {
     max-width: 400px;
     padding: 80px 20px;
     margin: 0 auto;
+}
+
+#about article p {
+    font-family:'Barlow Condensed', sans-serif;
 }
 
 #about h2 {
@@ -137,13 +149,17 @@ section.image-holder button {
     color: #fff;
 }
 
+#services h2 {
+    font-family: 'Dancing Script', cursive;
+}
+
 #services ul {
     width: 100%;
     max-width: 400px;
     padding: 20px;
     margin: 0 auto;
     list-style: none;
-    background-color: rgb(90, 90, 90, 0.9);
+    background-color: rgba(47, 160, 180, 0.9);
 }
 
 #sevices ul li {
@@ -161,7 +177,7 @@ section p {
 }
 
 #contact {
-    background-color: brown;
+    background-color: powderblue;
 }
 
 #contact form {
@@ -188,14 +204,16 @@ section p {
     margin-bottom: 30px;
     font-size: 18px;
     background-color: white;
+    border-radius: 10px;
 }
 
 #contact button {
     width: 200px;
     height: 60px;
     border-radius: 30px;
-    background-color: #09ced9;
+    background-color: #07c0ca;
     font-size: 20px;
+    font-family: 'Permanent Marker', cursive;
     letter-spacing: 0.1em;
     text-transform: uppercase;
 }
